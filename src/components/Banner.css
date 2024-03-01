@@ -1,0 +1,20 @@
+.image_wrapper {
+  width: 200px;
+    margin: 30px 12px;
+  }
+  
+  .image_wrapper img {
+    width: 80%;
+  }
+  .marq{
+    width: 100%;
+  }
+  .banner {
+    
+    display: flex;
+    justify-content: center;
+  }
+  .banner img{
+    width: 100vw;
+    margin: 0 72px;
+  }

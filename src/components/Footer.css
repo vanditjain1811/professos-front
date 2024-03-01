@@ -1,0 +1,57 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+  
+    
+}
+.upfooter{
+    display:flex ;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+   
+
+}
+.branding{
+    float: left;
+}
+.brandname{
+    color: #E6F7E4;
+    font-size: 1.8rem;
+}
+.boxs{
+    display: flex;
+    justify-content: space-between;
+    float: right;
+}
+.boxs ul{
+    list-style-type: none; 
+    margin: 30px; 
+    color: #E7E0D5;
+
+}
+.boxs li{
+    margin: 20px;
+    font-size: 1.5rem
+}
+.social{
+    display: flex;
+    float: right;
+    margin: 10px ;
+    margin-bottom: 2rem;
+}
+.lowfooter{
+    text-align:  right;
+   
+}
+.hr2 {
+    border: 0;
+    height: 3px;
+    width: 70%;
+    float: right;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 255), rgba(0, 0, 0, 0));
+  }
+  .handles{
+    margin: 0 1rem;
+  }

@@ -1,0 +1,61 @@
+.hero-cont{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hero-text{
+  display:flex ;
+  flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 190px;
+}
+.hero-text h1{
+  font-size: 3.3em;
+  margin-bottom: -10px;
+  font-weight: 900;
+}
+.hero-imgs{
+    display: flex;
+   flex-wrap: nowrap;
+   gap: 2em;
+   padding: 2em 0;
+}
+.hov {
+
+  width: 175px;
+  height: 500px;
+  border-radius: 10px;
+  margin: -6px;
+  background-image: url("../Images/Frame 54.svg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+transition: width 0.5s ease-in-out;
+
+  display: flex;
+align-items: flex-end;
+justify-content: center;
+
+  }
+  
+  .hov:hover{
+  cursor: pointer;
+    width: 400px;
+
+  }
+  .first-hov {
+    width: 400px; 
+  }
+  .card-title{
+    min-width: 14em;
+    
+    transform: rotate(-90deg);
+    transition: all .5s;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: .1em;
+  }
+  .hov:hover .card-title{
+    transform: rotate(0);
+  }

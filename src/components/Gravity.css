@@ -1,0 +1,30 @@
+.grav{
+    height: 300px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.falling-box {
+    position: relative;
+    animation: fall 2s linear forwards;
+    border: 2px solid black;
+    width:276px;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  @keyframes fall {
+    from {
+      top: -50px;
+    }
+    to {
+      top: calc(210px); /* Adjust if needed */
+    }
+  }
+  @media (max-width: 768px){
+    
+  }

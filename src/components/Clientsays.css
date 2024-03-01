@@ -1,0 +1,26 @@
+.heading{
+    display: flex;
+    justify-content: center;
+   
+    font-weight: 600;
+}
+.cardwrap{
+    display: flex;
+    margin: 30px;
+}
+.cl-card{
+    margin: 30px;
+    padding: 0 5px;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.cl-card p{
+    text-align: center;
+    text-wrap: wrap;
+    line-height: 36px;
+}
+.img2{
+    width: 25%;
+}

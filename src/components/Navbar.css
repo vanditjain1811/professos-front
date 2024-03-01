@@ -1,0 +1,50 @@
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    
+  }
+  .navbar-brand {
+    height: 51px;
+    width: 150px;
+    font-family: 'Source Sans 3', sans-serif;
+  font-weight: 600;
+    font-size: 36px;
+  }
+  
+  .navbar-item {
+    padding: 0.5rem 1rem;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 20px;
+  }
+  
+  .navbar-menu {
+    margin-right: 1rem;
+  }
+  
+  .navbar-end {
+    display: flex;
+    align-items: center;
+    height: 47px;
+    width: 558px;
+  }
+  
+
+  
+  /* Style the Login Button */
+  .button.is-primary {
+    background-color: #40546F;
+    color: #E7E0D5;
+    width: 110px;
+    height: 47px;
+    border-radius: 36px;
+    font-size: 22px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  
+  .button.is-primary:hover {
+    background-color: #CD877F;
+    color: #292E44;
+  }
